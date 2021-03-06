@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string-array name="vrsta_bicikla">
+    <item>Drumski bicikl</item>
+    <item>Planinski bicikl (MTB)</item>
+    <item>Hibrid</item>
+    <item>Gradski bicikl</item>
+    <item>Sklopivi bicikl</item>
+    <item>Turistički bicikl</item>
+    <item>Rekumbent</item>
+    <item>Električni bicikl</item>
+</string-array></resources>

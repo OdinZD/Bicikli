@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelImeBicikla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaImeBicikla" />
+
+        <EditText
+            android:id="@+id/imeBicikla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/vrsta_bicikla"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/vrsta_bicikla"
+            />
+
+        <TextView
+            android:id="@+id/labelaMarka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaMarka" />
+
+        <EditText
+            android:id="@+id/marka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/labelaOpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaOpis" />
+
+        <EditText
+            android:id="@+id/opis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/noviBicikl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNovi" />
+
+        <Button
+            android:id="@+id/Slikaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaSlikaj" />
+
+        <Button
+            android:id="@+id/promjenaBicikla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaIzmjeni" />
+
+        <Button
+            android:id="@+id/obrisiBicikl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaObrisi" />
+
+        <Button
+            android:id="@+id/natrag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNatrag" />
+
+        <ImageView
+            android:id="@+id/slika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/labelaSlikaBicikla"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

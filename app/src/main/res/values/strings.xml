@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bicikli</string>
+
+    <string name="labelaSifra">Šifra</string>
+    <string name="labelaImeBicikla">Ime Bicikla</string>
+    <string name="labelaVrstaBicikla">Vrsta Bicikla</string>
+    <string name="labelaNatrag">Natrag</string>
+    <string name="labelaSlikaBicikla">Slika Bicikla</string>
+    <string name="labelaNovi">Napravi novi Bicikl</string>
+    <string name="labelaIzmjeni">Izmjeni Bicikl</string>
+    <string name="labelaObrisi">Obriši Bicikl</string>
+    <string name="labelaSlikaj">Slikaj</string>
+    <string name="labelaMarka">Marka Bicikla</string>
+    <string name="labelaOpis">Opis</string>
+    <string name="todo">TODO</string>
+</resources>
